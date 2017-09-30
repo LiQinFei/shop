@@ -15,17 +15,17 @@
                 <router-link :to="{name:'homeIndex'}"> 威航首页</router-link>
               </li>
               <li>
-                <router-link :to="{name:'about'}"> 威航商城</router-link>
+                <router-link :to="{name:'shop'}"> 威航商城</router-link>
               </li>
               <li>
                 汽车保险
               </li>
-
               <li>
                 咨询&服务
               </li>
               <li>
-                关于我们
+                <router-link :to="{name:'about'}"> 关于我们</router-link>
+
               </li>
               <li>
                 最新动态

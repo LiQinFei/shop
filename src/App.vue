@@ -7,7 +7,7 @@
 <script>
 export default {
   name: 'app',
-   created() {
+  created() {
     document.body.removeChild(document.getElementById('appLoading'))
   }
 }
@@ -15,6 +15,8 @@ export default {
 
 <style>
 @import "./assets/css/reset.css";
+@import "./assets/font/iconfont.css";
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
